@@ -19,7 +19,7 @@ The model is trained to classify images of digits (0–9) using fully connected 
 ```bash
 ├── Handwritten_digit_recognition.ipynb  # Main Google Colab notebook
 ├── dataset/
-│   └── your_dataset.csv                # CSV file with pixel values and labels
+│   └── train.csv, test.csv                # CSV file with pixel values and labels
 └── README.md                           # Project overview and instructions
 ```
 
@@ -76,7 +76,7 @@ model = Sequential([
 
 ---
 
-###⚙️ Training Pipeline
+### ⚙️ Training Pipeline
 - Data Preprocessing
 -- Normalize pixel values to [0, 1]
 -- One-hot encode digit labels
