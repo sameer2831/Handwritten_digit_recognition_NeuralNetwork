@@ -78,16 +78,16 @@ model = Sequential([
 
 ### ⚙️ Training Pipeline
 - Data Preprocessing
--- Normalize pixel values to [0, 1]
--- One-hot encode digit labels
--- Split into training and test sets
+ -- Normalize pixel values to [0, 1]
+ -- One-hot encode digit labels
+ -- Split into training and test sets
   
 - Model Compilation & Training
--- Fit the model with training data
--- Use validation split or test set for evaluation
+ -- Fit the model with training data
+ -- Use validation split or test set for evaluation
   
 - Evaluation
---Plot training/validation accuracy and loss
+ --Plot training/validation accuracy and loss
 
 ## 📌 Future Improvements
 
